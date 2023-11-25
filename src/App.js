@@ -75,7 +75,7 @@ const ToDoList = () => {
           <span onClick={() => toggleTask(index)} className={task.isCompleted ? "todo-text todo-completed" : "todo-text"}>
             {task.text}
           </span>
-          <span>hello</span>
+        
           <button onClick={() => removeTask(index)}><i class="fas fa-trash-alt"></i></button>
         </div>
       ))}
